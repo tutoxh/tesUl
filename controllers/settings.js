@@ -1,10 +1,10 @@
 global.author = "AgatZ";
 global.key_free = ["gattfree"];
 global.key_premium = ['agatz'];
-global.limit_free = "9999";
-global.limit_premium = "99999";
+global.limit_free = "9999999999999999999";
+global.limit_premium = "99999999999999999999999";
 global.dateLimit = "Oktober, 31 2030",
-global.mongo_Db = "mongodb+srv://Agat:agatdwi11@cluster0.vbpssel.mongodb.net/?retryWrites=true&w=majority";
+global.mongo_Db = ""mongodb+srv://zeltoria1909:96xAwEIGoHhOO2lR@cluster0.v5c9etv.mongodb.net/?retryWrites=true&w=majority";
 global.recaptcha_key_1 = "6LegHYwmAAAAAOmYT82OldAD5MOpo7S9g5pT0XfQ";
 global.recaptcha_key_2 = "6LegHYwmAAAAAJSGEwz5G7jCD4tbBvrT-8nx3mBV";
 global.my_email = "agatdwisubakti335@gmail.com";
