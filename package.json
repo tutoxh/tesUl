@@ -4,7 +4,7 @@
   "description": "Rest API for bot WhatsApp.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
     "build": "node index.js"
   },
   "author": "ChaikalOffc",
