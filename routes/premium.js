@@ -14,9 +14,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/add', (req, res) => {
-let { username } = req.user
-    if (username !== nameowner) return res.redirect('/docs')
-    
+
     res.render('premium/add',  {
         layout: 'layouts/main'
     });
