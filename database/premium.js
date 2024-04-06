@@ -2,7 +2,7 @@ const { User, Utils } = require('./schema');
 const toMs = require('ms');
 const { limitCount, limitPremium } = require('../controllers/settings');
 const e = require('connect-flash');
-const tokens = 'Agathhh'
+const tokens = '06-08-1998'
 module.exports.tokens = tokens
 
     async function addPremium(username, customKey, expired) {
