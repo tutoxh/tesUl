@@ -5,6 +5,8 @@ const { notAuthenticated } = require('../lib/auth');
 const { limit_free } = require('../controllers/settings');
 const router = express.Router();
 
+const nameowner = 'FG98';
+
 router.get('/', (req, res) => {
     res.render('premium/index', {
         layout: 'layouts/main'
@@ -12,6 +14,9 @@ router.get('/', (req, res) => {
 })
 
 router.get('/add', (req, res) => {
+let { username } = req.user
+    if (username !== nameowner) return res.redirect('/docs')
+    
     res.render('premium/add',  {
         layout: 'layouts/main'
     });
