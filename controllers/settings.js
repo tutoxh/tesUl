@@ -1,4 +1,4 @@
-global.author = "AgatZ";
+global.author = "FG98";
 global.key_free = ["gattfree"];
 global.key_premium = ['agatz'];
 global.limit_free = "9999999999";
